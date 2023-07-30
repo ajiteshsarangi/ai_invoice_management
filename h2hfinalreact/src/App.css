@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.m-20 {
+  margin: 20px;
+}
+.flex {
+  display: flex;
+}
+.centerSearch {
+  align-items: center;
+}
+.flexC {
+  display: flex;
+  flex-direction: column;
+}
+.justifySpace {
+  justify-content: space-between;
+}
+.subc {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.list-color {
+  color: #db4437 !important;
+}
+
+.tabs {
+  color: white;
+  background-color: #666666;
+}
+.center {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.gridBtnsContainer {
+  display: flex;
+  margin: -50px 0 0 25px;
+}
+.gridBtn {
+  background-color: #fc7500 !important;
+  margin-right: 10px !important;
+}
+.gridBtnD {
+  margin-right: 10px !important;
+}
+/* ************************************ */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  width: 50%;
+  background-color: #666666;
+  color: white;
+  margin: 30px;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  width: 50%;
+  color: white;
+  margin: 30px 30px 30px 0;
+}
+.item {
+  height: 56px;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  width: 20rem;
+  background-color: white;
+}
+.itemSearch {
+  /* margin-right: 30px; */
+  height: 10px;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  width: 13rem;
+  background-color: white;
+}
+.itemBtn {
+  cursor: pointer;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 20px 0 10px;
+  height: 10px;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  width: 8rem;
+  background-color: #feca9d;
+}
+.itemBtn:hover {
+  background-color: #f1ceae;
+}
+.item2 {
+  width: 680px;
+  background-color: white;
+}
+.item3 {
+  border-radius: 5px;
+  height: 56px;
+  border: none;
+  padding: 20px;
+  width: 12.7rem;
+  background-color: white;
+}
+.item4 {
+  border-radius: 5px;
+  height: 56px;
+  border: none;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.item5 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.super-container {
+  display: flex;
+
+  background-color: #666666;
+}

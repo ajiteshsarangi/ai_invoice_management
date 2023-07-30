@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Invoice</title>
+</head>
+<body>
+    <h2>Edit Invoice</h2>
+    <form action="editData" method="POST">
+        <label for="customerOrderId">Customer Order ID:</label>
+        <input type="number" id="customerOrderId" name="customerOrderId" required><br><br>
+        
+        <label for="orderCurrency">Order Currency:</label>
+        <input type="text" id="orderCurrency" name="orderCurrency" required><br><br>
+        
+        <label for="companyCode">Company Code:</label>
+        <input type="number" id="companyCode" name="companyCode" required><br><br>
+        
+        <label for="distributionChannel">Distribution Channel:</label>
+        <input type="text" id="distributionChannel" name="distributionChannel" required><br><br>
+        
+        <input type="submit" value="Update">
+    </form>
+</body>
+</html>
